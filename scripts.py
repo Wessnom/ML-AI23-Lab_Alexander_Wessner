@@ -38,5 +38,5 @@ def violin_outliers_gender(outliers: dict, df, feature) -> dict:
         ax.legend(loc = "upper right")
          
     plt.suptitle(f"{feature.capitalize()} Distribution and Outliers by Gender", fontsize = 16)
-    # set title for the whole plot    
-    # return outliers
+    # set title for the whole plot
+    return outliers
